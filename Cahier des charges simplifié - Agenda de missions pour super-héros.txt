@@ -1,0 +1,22 @@
+Cahier des Charges simplifié – Application Agenda de Super-Héros
+1. Présentation générale
+
+Nom du projet : Agenda de missions de super-héros
+Objectif : Permettre aux utilisateurs de planifier les missions des super-héros sur une semaine via un agenda ludique et visuel.
+Technologie souhaitée : React JS
+
+2. Fonctionnalités principales
+2.1 Agenda des missions
+
+Vue semaine : Lundi → Dimanche
+Chaque jour contient des missions
+
+Chaque mission est représentée par une carte :
+
+Titre de la mission
+Héros assigné (nom + pouvoir)
+Créneau horaire
+Description courte de la mission
+Type d'adversaire
+Icône / image miniature
+Badge couleur optionnel
