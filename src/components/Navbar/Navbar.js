@@ -21,6 +21,11 @@ const Navbar = () => {
               Missions
             </Link>
           </li>
+          <li className="navbar-item">
+            <Link to="/profils" className="navbar-link">
+              Profils
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

@@ -133,7 +133,6 @@ const JobOffersPage = () => {
               <div className="mission-footer">
                 <div className="mission-stats">
                   <span className="posted-date">{mission.postedDate}</span>
-                  <span className="applicants">{mission.applicants} candidats</span>
                 </div>
                 <button className="apply-btn">
                   Postuler
