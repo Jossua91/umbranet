@@ -113,4 +113,8 @@ export const profiles = [
     hourlyRate: "€160-220/h",
     image: img7,
   }
+<<<<<<< HEAD
 ];
+=======
+];
+>>>>>>> ca75cf013b77f82cd352c4b9b7041321602dc4f2

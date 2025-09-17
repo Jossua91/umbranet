@@ -13,8 +13,12 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
+<<<<<<< HEAD
           <Route path="/offres-emploi" element={<JobOffersPage />} />
           {/* Le chemin de la route est correct, il fallait juste ajuster le lien dans le Navbar */}
+=======
+          <Route path="/missions" element={<JobOffersPage />} />
+>>>>>>> ca75cf013b77f82cd352c4b9b7041321602dc4f2
           <Route path="/profils" element={<ProfilesPage />} />
         </Routes>
       </div>
