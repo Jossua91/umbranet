@@ -120,8 +120,4 @@ const ProfilesPage = () => {
   );
 };
 
-<<<<<<< HEAD
 export default ProfilesPage;
-=======
-export default ProfilesPage;
->>>>>>> ca75cf013b77f82cd352c4b9b7041321602dc4f2

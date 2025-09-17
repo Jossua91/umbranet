@@ -71,8 +71,4 @@ export const missions = [
     postedDate: "Il y a 2 semaines",
     urgent: false
   }
-<<<<<<< HEAD
 ];
-=======
-];
->>>>>>> ca75cf013b77f82cd352c4b9b7041321602dc4f2
