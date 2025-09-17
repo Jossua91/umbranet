@@ -57,7 +57,7 @@ const HomePage = () => {
           <p>Le réseau social de l'élite héroïque.</p>
           
           {/* ⬅️ Remplacement de <button> par <Link> */}
-          <Link to="/offres-emploi" className="cta-button">
+          <Link to="/missions" className="cta-button">
             Combattez la conspiration
           </Link>
           
