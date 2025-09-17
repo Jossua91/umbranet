@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import HomePage from './pages/HomePage/HomePage';
 import JobOffersPage from './pages/JobOffersPage/JobOffersPage';
+import ProfilesPage from './pages/ProfilesPage/ProfilesPage';
 import './App.scss';
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/offres-emploi" element={<JobOffersPage />} />
+          {/* Le chemin de la route est correct, il fallait juste ajuster le lien dans le Navbar */}
+          <Route path="/profils" element={<ProfilesPage />} />
         </Routes>
       </div>
     </Router>

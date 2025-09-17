@@ -20,6 +20,12 @@ const Navbar = () => {
               Offres d'emploi
             </Link>
           </li>
+          {/* Le lien est maintenant "/profils" pour correspondre à la route d'App.js */}
+          <li className="navbar-item">
+            <Link to="/profils" className="navbar-link">
+              Profiles
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
